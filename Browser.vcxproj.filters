@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fa7c0643-b768-49d6-a58f-8c05fa44eace}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{81c671c1-4f0c-4192-9306-d1406adf9692}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{7e6e2e3d-e99c-48b0-a888-cb179ffc8ebe}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Browser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CatSets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSNCollection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Browser.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Browser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="catsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TableView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSNCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\APIBROW.ICO">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\coldtool.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\eye.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hottoolb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Browser.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\hlink.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
